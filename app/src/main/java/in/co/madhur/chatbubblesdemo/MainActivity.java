@@ -44,7 +44,8 @@ public class MainActivity extends ActionBarActivity implements NotificationCente
     private int keyboardHeight;
     private boolean keyboardVisible;
     private WindowManager.LayoutParams windowLayoutParams;
-
+int i=0;
+    int b =2;
 
     private EditText.OnKeyListener keyListener = new View.OnKeyListener() {
         @Override
